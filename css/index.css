@@ -1,0 +1,571 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    -webkit-box-sizing: border-box;
+}
+
+html,body{
+    width:100%;
+    height:100%;
+}
+
+
+header{
+    width: 100%;
+    height: auto;
+    overflow:hidden;
+    
+}
+header > div.search{
+    width:100%;
+    height:50px;
+    background-color:#000000;
+}
+
+header > div.search > ul{
+    display:block;
+    width:200px;
+    height:20px;
+    float:right;
+    padding-top:10px;
+}
+
+header > div.search > ul > li{
+    display:block;
+    width:150px;
+    height:20px;
+    float:right;    
+}
+
+header > div.search > ul > li > a{
+    display:block;
+    width:100%;
+    height:100%;
+    color:#b9b9b9;
+    text-decoration:none;  
+}
+
+
+header > nav{
+    width:100%;
+    height:100%;
+    background-color:#151515;
+    overflow:hidden;
+}
+
+header > nav > a{
+
+}
+
+header > nav > ul{
+    display:block;
+    width:500px;
+    height:100px;
+    margin:0 auto;
+    padding-top:35px;
+}
+
+header > nav > ul > li{
+    display:block;
+    float:left;
+    padding:0 20px;
+    
+}
+
+header > nav > ul > li > a{
+    color:#FFFFFF;
+    text-decoration:none;
+    font-size:20px;
+    font-weight:600;
+}
+
+header > nav > ul > li > a:hover{
+    color:#ff5c33;
+}
+
+div.banner{
+    width:100%;
+    height:auto;
+    overflow:hidden;
+    background-color:#000000;
+}
+
+div.banner > div.pic{
+    width:100%;
+    height:auto;
+    padding-top:35%;
+    background-image: url("../image/dogb1.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+    position: relative;
+
+}
+
+
+
+div.banner > div.pic > a.leftbtn{
+    display:block;
+    width:60px;
+    height:89px;
+    background-image: url("../image/leftbtn.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    position:absolute;
+    top:50%;
+    left:10%;
+}
+
+div.banner > div.pic > a.rightbtn{
+    display:block;
+    width:60px;
+    height:89px;
+    background-image: url("../image/rightbtn.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    position:absolute;
+    top:48%;
+    left:80%;
+}
+
+
+
+div.banner > div.pic > ul{
+    display:block;
+    height:30px;
+    width:300px;
+    margin:0 auto;
+}
+
+div.banner > div.pic > ul > a{
+    display:block;
+    float:left;
+    width:15px;
+    height:15px;
+    border:2px solid #ddd;
+    border-radius:50%;
+    margin:0 20px;
+}
+
+div.banner > div.pic > ul > a:hover{
+    background-color:white;
+}
+
+/* div.banner > div.pic > ul > li{
+    display:block;
+    width:140px;
+    height:93px;
+    float:left;
+}
+
+div.banner > ul > li > a{
+
+}
+
+div.banner > ul > li > img{
+    display:block;
+    float:left;
+}
+ */
+article{
+    width:100%;
+    height:auto;
+    background-color:#0d0d0d;
+    overflow:hidden;
+}
+
+article > div.content{
+    width:1000px;
+    height:auto;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    padding-top:100px;
+    color:#b9b9b9;
+    padding-bottom:40px;
+}
+
+article > div.content > div{
+    width:250px;
+    height:auto;
+}
+
+
+article > div.content > div > h3{
+    padding-top:20px;
+    padding-bottom:15px;
+    text-align:center;
+    font-size:22px;
+    color:#d6d4d4;
+}
+
+article > div.content > div > p{
+    text-align:center;
+    font-size:16px;
+    letter-spacing: 1px;
+}
+
+main{
+    width:100%;
+    height:auto;
+    background-color:#131414;
+    overflow:hidden;
+}
+
+main > div.content2{
+    padding-top:30px;
+    padding-bottom:30px;
+    padding-left:15.9%;
+    width:100%;
+    margin:0 auto;
+    display:flex;
+    color:#b9b9b9;
+}
+
+/* main > div.content2 > img{
+    display:block;
+    margin-left:15.9%;
+} */
+
+main > div.content2 > div.box1{
+    padding-top:30px;
+    padding-left:100px;
+    width:500px;
+    margin:0 auto;
+}
+
+main > div.content2 > div.box1 > h3{
+    font-size:22px;
+    color:#d6d4d4;
+}
+
+main > div.content2 > div.box1 > p{
+    padding-top:20px;
+    font-size:16px;
+}
+
+footer{
+    width:100%;
+    height:auto;
+    background-color:#0d0d0d;
+    overflow:hidden;
+}
+
+footer > div.bottom{
+    width:70%;
+    height:100px;
+    margin:0 auto;
+    padding-top:30px;
+}
+
+footer > div.bottom > div.bottom_in{
+    width:100%;
+    height:auto;
+    margin:0 auto;
+}
+
+footer > div.bottom > div.bottom_in2{
+    width:40px;
+    height:40px;
+    position:absolute;
+    right:45%;
+    top:40px;
+    
+}
+
+
+
+/* RWD */
+
+@media screen and  (max-width:1000px){
+
+    article{
+        width:100%;
+        height:auto;
+        background-color:#0d0d0d;
+        overflow:hidden;
+    }
+    
+
+    article > div.content{
+        display:block;
+        width:80%;
+        height:auto;
+        padding-top:100px;
+        color:#b9b9b9;
+        padding-bottom:40px;
+        padding-right:auto;
+        margin:0 auto;
+
+    }
+    
+
+    
+
+    article > div.content > div{
+        width:55%;
+        height:auto;
+        display:block;
+        padding-bottom:7%;
+        line-height:20px;
+        margin:0 auto;
+        
+    }
+
+    article > div.content > div > img{
+        display:block;
+        width:100%;
+    }
+
+    article > div.content > div > h3{
+    }
+
+    article > div.content > div > p{
+    }
+
+
+    main{
+        display:block;
+        width:100%;
+        height:auto;
+    }
+
+    main > div.content2{
+        display:block;
+        width:80%;
+        height:auto;
+        text-align:center;
+        margin:0 auto;
+        padding-left:0px;
+    }
+
+    
+
+    main > div.content2 > img{
+        width:70%;
+    }
+
+    main > div.content2 > div.box1{
+        display:block;
+        width:70%;
+        padding-left:0px;
+    }
+    
+    main > div.content2 > div.box1 > h3{
+        font-size:22px;
+        color:#d6d4d4;
+    }
+    
+    main > div.content2 > div.box1 > p{
+        padding-top:20px;
+        font-size:16px;
+    }
+
+}
+
+
+@media screen and (max-width:600px){
+    header{
+        width: 100%;
+        height: auto;
+        overflow:hidden;
+        
+    }
+    header > div.search{
+        width:100%;
+        height:20px;
+        background-color:#131414;
+    }
+    
+    header > div.search > ul{
+        display:block;
+        width:100%;
+        height:auto;
+        float:none;
+        position: relative;
+    }
+    
+    header > div.search > ul > li{
+        display:block;
+        width:70px;
+        height:20px;
+        float:none;
+        position: absolute;
+        right:5%;
+
+    }
+    
+    header > div.search > ul > li > a{
+        display:block;
+        width:100%;
+        height:100%;
+        color:#b9b9b9;
+        text-decoration:none;
+        font-size:15px;
+    }
+    
+    
+    header > nav{
+        width:100%;
+        height:100%;
+        background-color:#151515;
+        overflow:hidden;
+    }
+    
+    header > nav > a{
+    
+    }
+    
+    header > nav > ul{
+        display:block;
+        width:100%;
+        height:auto;
+        padding-top:10px;
+    }
+    
+    header > nav > ul > li{
+        display:block;
+        float:none;
+        width:100%;
+        height:auto;
+        
+    }
+    
+    header > nav > ul > li > a{
+        display:block;
+        width:100px;
+        height:auto;
+        color:#FFFFFF;
+        text-decoration:none;
+        font-size:20px;
+        font-weight:600;
+        margin:0 auto;
+        line-height:20px;
+        padding-bottom:10px;
+        padding-top:10px;
+    }
+    
+    header > nav > ul > li:hover{
+        color:#ff5c33;
+        background-color:saddlebrown;
+    }
+
+    /* header > nav > ul > li:hover{
+        background-color:saddlebrown;
+        color:#ff5c33;
+    } */
+
+    div.banner > div.pic > a.leftbtn{
+        display:block;
+        width:60px;
+        height:89px;
+        background-image: url("../image/leftbtn.png");
+        background-repeat: no-repeat;
+        background-size:cover;
+        position:absolute;
+        top:40%;
+        left:10%;
+        transform:scale(0.5);
+    }
+    
+    div.banner > div.pic > a.rightbtn{
+        display:block;
+        width:60px;
+        height:89px;
+        background-image: url("../image/rightbtn.png");
+        background-repeat: no-repeat;
+        background-size:cover;
+        position:absolute;
+        top:38%;
+        left:80%;
+        transform:scale(0.5);
+    }
+}
+
+/* ------------------------------------------- */
+
+/* @media screen and (max-width:700px){
+
+    main{
+        display:block;
+        width:100%;
+        height:auto;
+    }
+
+    main > div.content2{
+        display:block;
+        width:80%;
+        height:auto;
+        text-align:center;
+        margin:0 auto;
+        padding-left:0px;
+    }
+
+    
+
+    main > div.content2 > img{
+        width:100%;
+    }
+
+    main > div.content2 > div.box1{
+        display:block;
+        width:100%;
+        padding-left:0px;
+    }
+    
+    main > div.content2 > div.box1 > h3{
+        font-size:22px;
+        color:#d6d4d4;
+    }
+    
+    main > div.content2 > div.box1 > p{
+        padding-top:20px;
+        font-size:16px;
+    }
+
+} */
+
+
+/* @media screen and (max-width:500px){
+
+
+    main{
+        width:100%;
+        height:auto;
+        background-color:#131414;
+        overflow:hidden;
+    }
+        
+
+    main > div.content2 > img{
+        display:block;
+        width:100%;
+
+        
+    }
+
+    main > div.content2 > div.box1{
+        display:block;
+        width:100%;
+        padding-left:0px;
+        margin:0 auto
+    }
+    
+    main > div.content2 > div.box1 > h3{
+        font-size:22px;
+        color:#d6d4d4;
+    }
+    
+    main > div.content2 > div.box1 > p{
+        padding-top:20px;
+        font-size:16px;
+    } */
+
+/* } */
+
+
+
+
+
+
