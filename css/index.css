@@ -260,10 +260,12 @@ footer > div.bottom{
 }
 
 footer > div.bottom > div.bottom_in{
-    width:100%;
+    width:400px;
     height:auto;
     margin:0 auto;
+    text-align:center
 }
+
 
 footer > div.bottom > div.bottom_in2{
     width:40px;
@@ -481,6 +483,69 @@ footer > div.bottom > div.bottom_in2{
         left:80%;
         transform:scale(0.5);
     }
+
+    footer > div.bottom{
+        width:95%;
+        height:100px;
+        margin:0 auto;
+        padding-top:30px;
+    }
+    
+    footer > div.bottom > div.bottom_in{
+        width:90%;
+        height:auto;
+        margin:0 auto;
+    }
+    
+    footer > div.bottom > div.bottom_in2{
+        width:40px;
+        height:40px;
+        position:absolute;
+        right:45%;
+        top:40px;
+        
+    }
+
+        footer > div.bottom{
+        width:95%;
+        height:100px;
+        margin:0 auto;
+        padding-top:30px;
+    }
+    
+    footer > div.bottom > div.bottom_in{
+        width:90%;
+        height:auto;
+        margin:0 auto;
+    }
+    
+    footer > div.bottom > div.bottom_in2{
+        width:40px;
+        height:40px;
+        position:absolute;
+        right:45%;
+        top:40px;
+        
+    }
+
+    footer > div.bottom{
+        width:95%;
+        height:100px;
+        margin:0 auto;
+        padding-top:30px;
+    }
+    
+    footer > div.bottom > div.bottom_in{
+        width:100%;
+        height:auto;
+        margin:0 auto;
+    }
+
+    footer > div.bottom > div.bottom_in > a{
+        padding:10px;
+    }
+    
+    
 }
 
 /* ------------------------------------------- */
