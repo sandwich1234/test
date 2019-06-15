@@ -176,9 +176,9 @@ article{
 }
 
 article > div.content{
-    width:1000px;
+    width:90%;
     height:auto;
-    margin:auto;
+    margin:0 auto;
     display:flex;
     justify-content:space-between;
     padding-top:100px;
@@ -187,8 +187,15 @@ article > div.content{
 }
 
 article > div.content > div{
-    width:250px;
+    width:80%;
     height:auto;
+}
+
+article > div.content > div > img{
+    display:block;
+    width:80%;
+    height:auto;
+    margin:0 auto;
 }
 
 
@@ -282,7 +289,7 @@ footer > div.bottom > div.bottom_in2{
 
 @media screen and  (max-width:1000px){
 
-    article{
+    /* article{
         width:100%;
         height:auto;
         background-color:#0d0d0d;
@@ -324,7 +331,7 @@ footer > div.bottom > div.bottom_in2{
     }
 
     article > div.content > div > p{
-    }
+    } */
 
 
     main{
@@ -544,9 +551,102 @@ footer > div.bottom > div.bottom_in2{
     footer > div.bottom > div.bottom_in > a{
         padding:10px;
     }
+
+
+    article{
+        width:100%;
+        height:auto;
+        background-color:#0d0d0d;
+        overflow:hidden;
+    }
     
+
+    article > div.content{
+        width:80%;
+        height:auto;
+        display:block;
+        justify-content:space-between;
+        padding-top:100px;
+        color:#b9b9b9;
+        padding-bottom:40px;
+    }
+    
+    article > div.content > div{
+        display:block;
+        width:80%;
+        height:auto;
+        margin:0 auto;
+        padding-bottom:7%;
+    }
+    
+    article > div.content > div > img{
+        display:block;
+        width:90%;
+        height:auto;
+        margin:0 auto;
+    }
+
+
+    article > div.content > div > h3{
+        padding-top:20px;
+        padding-bottom:15px;
+        text-align:center;
+        font-size:18px;
+        color:#d6d4d4;
+        width:100%;
+    }
+    
+    article > div.content > div > p{
+        text-align:center;
+        font-size:16px;
+        letter-spacing: 1px;
+    }
+    
+    
+
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ------------------------------------------- */
 
